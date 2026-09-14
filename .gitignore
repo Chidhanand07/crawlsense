@@ -1,0 +1,33 @@
+# ---- Secrets -----------------------------------------------------------
+.env
+.env.local
+*.key
+
+# ---- Python ------------------------------------------------------------
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Editors / OS ------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ---- Local working notes (not part of the submission) ------------------
+CLAUDE.md
+SETUP.md
+CrawlSense_Build_Guide.md
+
+# ------------------------------------------------------------------------
+# NOT ignored, deliberately:
+#   output.json    — the sample-output deliverable
+#   .env.example   — documents required variables, contains no real key
+# ------------------------------------------------------------------------
